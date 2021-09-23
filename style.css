@@ -35,33 +35,29 @@ a{
      width:50%;
      height: 40px;  
 }
-.sinscrire{
-     display: grid;
-     grid-template-columns: 1fr;
-     display: flex;
-     justify-content: flex-end;
-     align-items: center;
-     height: 40px;
-    
 
+.nav-link {
+  display: grid;
+     grid-template-columns: 1fr;
+     display: flex; 
+     align-items: center; 
+     height: 40px;
+}
+.sinscrire{
+    
+     justify-content: flex-end;
+        
 }
   .hebergement{
-      display: grid;
-     grid-template-columns: 1fr;
-     display: flex;
+    
      justify-content: center;
-     align-items: center;
-     
+    
      border-bottom: 3px solid #0065FC;
-     height: 40px;
     }
     .Avtivité{
-     display: grid;
-     grid-template-columns: 1fr;
-     display: flex;
+  
      justify-content: center;
-     align-items: center;
-     height: 40px;
+    
      border-bottom: 3px solid #F2F2F2;
     }
 
@@ -685,7 +681,7 @@ height:235px;
 .sinscrire{
    border-bottom: none;  
    color: black;
-   order: 6;  
+    
 }
 
 .imageres{
