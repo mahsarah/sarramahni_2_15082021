@@ -388,7 +388,7 @@ height: 150px;
     justify-content: center;
 
 }
-.photo1{
+.photodeco{
 
 background-color: white;
 height: 250px;
@@ -397,71 +397,13 @@ border-radius: 15px 15px 15px 15px;
  box-shadow: 0px 5px 4px #F2F2F2;
 
 }
-.marcus{
+.dementionimage{
      width: 100%;
      height: 150px;
      border-radius: 15px 15px 0px 0px;
 }
-.photo2{
-background-color: white;
-height: 250px;
-border-radius: 15px 15px 15px 15px;
- border: 4px solid white;
-  box-shadow: 0px 5px 4px #F2F2F2;
-}
-.fred{
-   width: 100%;
-     height: 150px;
-     border-radius: 15px 15px 0px 0px;   
-}
-.photo3{
-background-color: white;
-height: 250px;
-border-radius: 15px 15px 15px 15px;
-border: 4px solid white;
- box-shadow: 0px 5px 4px #F2F2F2;
-}
-.reisetopia{
-  width: 100%;
-     height: 150px;
-     border-radius: 15px 15px 0px 0px;    
-}
-.photo4{
-background-color: white;
-height: 250px;
-border-radius: 15px 15px 15px 15px;
-border: 4px solid white;
- box-shadow: 0px 5px 4px #F2F2F2;
-}
-.sprat{
-   width: 100%;
-     height: 150px;
-     border-radius: 15px 15px 0px 0px;    
-}
-.photo5{
-background-color: white;
-height: 250px;
-border-radius: 15px 15px 15px 15px;
-border: 4px solid white;
- box-shadow: 0px 5px 4px #F2F2F2;
-}
-.ZyaiwBe{
-width: 100%;
-     height: 150px;
-     border-radius: 15px 15px 0px 0px;      
-}
-.photo6{
-background-color: white;
-height: 250px;
-border-radius: 15px 15px 15px 15px;
-border: 4px solid white;
- box-shadow: 0px 5px 4px #F2F2F2;
-}
-.brian{
-   width: 100%;
-     height: 150px;
-     border-radius: 15px 15px 0px 0px;   
-}
+
+
 .afiche{
      margin-left: 10px;
 }
@@ -628,10 +570,7 @@ height:235px;
      grid-template-columns: 42% 24% 24% 13% 0.5%;   
 }
 
-/*.hebergement{
-     border-bottom: none;
-     color: black; 
-}*/
+
 
 .nav-link {
     border-bottom: none;
