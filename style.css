@@ -107,6 +107,10 @@ grid-template-columns: 70%;
      /*--fin bar de recherche --*/
 
      /*--catégorie1 --*/
+     .catégorielink{
+       justify-content: center;
+         align-items:center;  
+     }
      .catégorie{
           display: grid;
           grid-template-columns: 100%;
@@ -127,12 +131,9 @@ grid-template-columns: 70%;
 
       }
       .economique{
-       
-        display: grid;
+       display: grid;
         grid-template-columns: 28% 73%;
         grid-gap: 8px;
-         justify-content: center;
-         align-items:center;
          border-radius:20px 20px 20px 20px ;
          border: 3px solid #F2F2F2;
          margin-right: 13px;
@@ -144,28 +145,17 @@ grid-template-columns: 70%;
           background-color: #DEEBFF;
            display: grid;
           grid-template-columns: 53%;
-         justify-content: center;
-         align-items: center;
          border-radius:38px 38px 38px 38px ;
          color: #0065FC;
 
         
       }
-      .mony2{
-           justify-content: center;
-            align-items:center;
-           
-      }
-
+     
       .famillial{
 
         display: grid;
         grid-template-columns: 34% 69%;
-       
-        justify-content: center;
-        align-items: center;
-        
-         border: 3px solid #F2F2F2;
+        border: 3px solid #F2F2F2;
          border-radius: 20px 20px 20px 20px;
          margin-left: 12px;
          
@@ -176,9 +166,7 @@ grid-template-columns: 70%;
           grid-template-columns: 38%;
       background-color: #DEEBFF;
        height: 38px;
-       justify-content: center;
-       align-items: center;
-         border-radius:38px 38px 38px 38px ;
+       border-radius:38px 38px 38px 38px ;
          color: #0065FC;
 
       }
@@ -202,9 +190,7 @@ grid-template-columns: 70%;
      grid-template-columns: 45%;
       background-color: #DEEBFF;
       height: 37px;
-      justify-content: center;
-      align-items: center;
-       border-radius:38px 38px 38px 38px ;
+      border-radius:38px 38px 38px 38px ;
          color: #0065FC;
          margin-left: -1px;
 
@@ -215,10 +201,7 @@ grid-template-columns: 70%;
      grid-template-columns: 80%;
    
      height: 33px;
-      justify-content: center;
-      align-items: center;
-      margin-left: 3px;
-
+       margin-left: 3px;
     }
     .animaux{
      display: grid;
@@ -226,9 +209,7 @@ grid-template-columns: 70%;
      
      width: 60%;
      height: 37px;
-     justify-content: center;
-      align-items: center;
-       border-radius:20px 20px 20px 20px ;
+     border-radius:20px 20px 20px 20px ;
       border: 3px solid #F2F2F2;
       margin-top: 10px;
     }
@@ -236,9 +217,7 @@ grid-template-columns: 70%;
      display: grid;
      grid-template-columns: 44%;
       background-color: #DEEBFF;
-      justify-content: center;
-      align-items: center;
-      height: 37px;
+     height: 37px;
        border-radius:38px 38px 38px 38px ;
          color: #0065FC;
          margin-left: -6px;
@@ -246,9 +225,6 @@ grid-template-columns: 70%;
 
     }
     .chien2{
-     
-      justify-content: center;
-      align-items: center;
      margin-left: 8px;
 
           }
