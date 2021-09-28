@@ -338,7 +338,10 @@ grid-gap: 1px;
 .hotel2{
 height: 150px;
  background-color:white;
- border-radius: 15px 0px 0px 15px;
+
+}
+.mradius{
+ border-radius:  15px 0px 0px 15px;
 }
 .text2{
  height: 150px;
@@ -349,7 +352,7 @@ height: 150px;
 .awcrea{
    width: 100%;
      height: 150px;
-     border-radius:  15px 0px 0px 15px;
+    
      border: 4px solid white;   
 }
 .pop3{
@@ -360,7 +363,7 @@ grid-gap: 1px;
 .hotel3{
 height: 150px;
  background-color:white;
- border-radius: 15px 0px 0px 15px;
+ 
 }
 .text3{
    height: 150px;
@@ -371,7 +374,7 @@ height: 150px;
 .zakaria{
  width: 100%;
      height: 150px;
-     border-radius:  15px 0px 0px 15px;
+    
      border: 4px solid white; 
 }
 /*--hébergement a marseil--*/
