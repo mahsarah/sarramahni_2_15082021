@@ -37,8 +37,6 @@ a{
 }
 
 .nav-link {
-  display: grid;
-     grid-template-columns: 1fr;
      display: flex; 
      align-items: center; 
      height: 40px;
@@ -71,13 +69,18 @@ a{
     grid-template-columns:10% 60% 10%;
     
 }
+.justifiy{
+  height: 40px; 
+  justify-content: center;
+ align-items: center; 
+}
 .maps{
-height: 40px;
+
 background-color:  #F2F2F2;
 display: grid;
 grid-template-columns: 20%;
-justify-content: center;
-align-items: center;
+
+
 border-radius: 15px 0px 0px 15px;
 }
 .pays{
@@ -87,13 +90,13 @@ display: grid;
 grid-template-columns: 100%;
 }
 .recherch{
-height: 40px;
+
 background-color: #0065FC;
 border-radius: 0px 15px 15px 0px;
 display: grid;
 grid-template-columns: 70%;
-justify-content: center;
-align-items: center;
+
+
 }
 .iconmaps{
     height: 20px;
@@ -658,21 +661,22 @@ height:235px;
           margin-right: 20px;
      }
  .reservia{
-     display: grid;
-     grid-template-columns: 42% 24% 24% 13% 0.5%;
-    
-          
+     grid-template-columns: 42% 24% 24% 13% 0.5%;   
 }
 
-.hebergement{
+/*.hebergement{
      border-bottom: none;
      color: black; 
- 
+}*/
+
+.nav-link {
+    border-bottom: none;
+     color: black; 
 
 }
  
 
-.Avtivité{
+/*.Avtivité{
    border-bottom: none;  
    color: black;
 
@@ -682,7 +686,7 @@ height:235px;
    border-bottom: none;  
    color: black;
     
-}
+}*/
 
 .imageres{
      width: 40%;
