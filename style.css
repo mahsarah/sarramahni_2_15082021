@@ -112,29 +112,22 @@ grid-template-columns: 70%;
           grid-template-columns: 100%;
           grid-gap:6px;
           margin-left: -9px;
-
-
      }
       .filtre{
           margin-top: 20px;
       }
-
       .ecofamil{
           display: grid;
           grid-template-columns: 54% 44%;
           grid-gap: 6px;
            margin-top: 10px;
-
       }
       .economique{
        display: grid;
         grid-template-columns: 28% 73%;
         grid-gap: 8px;
          border-radius:20px 20px 20px 20px ;
-         border: 3px solid #F2F2F2;
-         margin-right: 13px;
-       
-             
+         margin-right: 13px;      
       }
       .mony1{
           height: 38px;
@@ -143,18 +136,13 @@ grid-template-columns: 70%;
           grid-template-columns: 53%;
          border-radius:38px 38px 38px 38px ;
          color: #0065FC;
-
-        
       }
      
       .famillial{
-
         display: grid;
         grid-template-columns: 34% 69%;
-        border: 3px solid #F2F2F2;
          border-radius: 20px 20px 20px 20px;
          margin-left: 12px;
-         
       }
 
       .child1{
@@ -164,21 +152,17 @@ grid-template-columns: 70%;
        height: 38px;
        border-radius:38px 38px 38px 38px ;
          color: #0065FC;
-
       }
       
     .child2 {
-    
      margin-left: 8px;
     }
     .romantique{
-     width: 50%;
-      display: grid;
-      grid-template-columns: 24% 65%;
-       border: 3px solid #F2F2F2;
-         border-radius: 20px 20px 20px 20px;
-         margin-top: 10px;
-
+    width: 50%;
+     display: grid;
+    grid-template-columns: 24% 65%;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 10px;
     }
     .cour1{
      display: grid;
@@ -186,10 +170,11 @@ grid-template-columns: 70%;
       background-color: #DEEBFF;
       height: 37px;
       border-radius:38px 38px 38px 38px ;
-         color: #0065FC;
-         margin-left: -1px;
-
-
+     color: #0065FC;
+    margin-left: -1px;
+    }
+    .bordercat{
+      border: 3px solid #F2F2F2;   
     }
     .cour2{
      display: grid;
@@ -203,7 +188,6 @@ grid-template-columns: 70%;
       width: 60%;
      height: 37px;
      border-radius:20px 20px 20px 20px ;
-      border: 3px solid #F2F2F2;
       margin-top: 10px;
     }
     .chien1{
@@ -219,7 +203,6 @@ grid-template-columns: 70%;
     }
     .chien2{
      margin-left: 8px;
-
           }
           .coloricon{
                color: black;
@@ -234,12 +217,9 @@ grid-template-columns: 12% 85%;
 grid-gap: 8px;
 margin-top: 14px;
 margin-bottom: 20px;
-
-
 }
 .iconinfo{
 height:28px;
-
 display: grid;
 grid-template-columns: 5%;
 border-radius: 20px 20px 20px 20px;
@@ -303,18 +283,11 @@ grid-gap: 1px;
  background-color:white;
  border-radius: 15px 0px 0px 15px;
 }
-.text1{
-height: 150px;
+.textx{
  background-color: white;
  border-radius: 0px 15px 15px 0px;
- border: 4px solid white;
 }
 
-.klebs{
-     width: 100%;
-     height: 150px;
-     border: 4px solid white;
-}
 .grandehot1{
      margin-top: -13px;   
 }
@@ -332,22 +305,13 @@ grid-gap: 1px;
 .hotel2{
 height: 150px;
  background-color:white;
-
 }
 .mradius{
  border-radius:  15px 0px 0px 15px;
 }
-.text2{
+.borderwhite{
+border: 4px solid white;
  height: 150px;
- background-color:white;
- border-radius: 0px 15px 15px 0px; 
- border: 4px solid white;   
-}
-.awcrea{
-   width: 100%;
-     height: 150px;
-    
-     border: 4px solid white;   
 }
 .pop3{
 display: grid;
@@ -359,17 +323,9 @@ height: 150px;
  background-color:white;
  
 }
-.text3{
-   height: 150px;
- background-color:white;
- border-radius: 0px 15px 15px 0px;
- border: 4px solid white;   
-}
 .zakaria{
  width: 100%;
-     height: 150px;
     
-     border: 4px solid white; 
 }
 /*--hébergement a marseil--*/
 .rous{
@@ -383,7 +339,6 @@ height: 150px;
 
 }
 .photodeco{
-
 background-color: white;
 height: 250px;
 border-radius: 15px 15px 15px 15px;
@@ -396,8 +351,6 @@ border-radius: 15px 15px 15px 15px;
      height: 150px;
      border-radius: 15px 15px 0px 0px;
 }
-
-
 .afiche{
      margin-left: 10px;
 }
@@ -409,15 +362,12 @@ grid-template-columns: 100%;
 grid-gap:50px;
 justify-content: center;
 margin-top: 45px;
-
 }
-.renola{
 
+.renola{
 height:240px;
 box-shadow: 0px 5px 4px #F2F2F2;
 border-radius: 10px;
-
-
 }
 
 .titrmars{
@@ -439,20 +389,15 @@ height:235px;
 
 height: 235px;
 border-radius: 15px;
-box-shadow:  0px 5px 4px #F2F2F2;  
+box-shadow:  0px 5px 4px #F2F2F2;
 }
-
-
 .Calanque{
 display: grid;
 grid-template-columns: 100%; 
 grid-gap: 40px;
-
-
 }
 .Calanquej{
 height:235px;
-  
   border-radius:0px 0px 15px 15px ;
   box-shadow: 0px 5px 4px #F2F2F2;  
 }
@@ -497,8 +442,6 @@ height:235px;
           grid-gap: 6px;
            margin-top: 10px;
       }
-
-
       .romantique{
           width: 40%;
       }
@@ -527,12 +470,7 @@ height:235px;
 .nav-link {
     border-bottom: none;
      color: black; 
-
 }
- 
-
-
-
 .imageres{
      width: 40%;
 }
@@ -623,14 +561,6 @@ height:235px;
      grid-template-columns:9% 42% 18%;
     
      }
-   /* .Recherche{
-          display: flex;
-          color: white;
-     }
-     .search{
-          color: white;
-           display:none;
-     }*/
       /*-- fin bare de recherche --*/
       /*--catégorie--*/
        .ecofamil{
@@ -794,10 +724,6 @@ height:235px;
    .famillial{
      margin-left: -5px;
    }
-     .romantique{
-         
-          width: 97%;
-     }
      .animaux{
           
           width: 85%;
@@ -826,8 +752,6 @@ height:235px;
       } 
 }
 
-
-
 @media screen and (min-width :900px){
       .reservia {
        display: grid;
@@ -843,8 +767,6 @@ height:235px;
      grid-template-columns:6% 30% 14%;
     
      }
-    
-     
    /*-- fin bare de recherche --*/ 
    /*--catégorie--*/
       .catégorie{
@@ -871,12 +793,7 @@ height:235px;
           width: 74%;
      }
    /*--fin catégorie--*/
-    /*--info--*/
-      .info{
-    display: grid;
-    grid-template-columns: 4% 85%;
-     }
-     /*--fin info--*/ 
+    
      /*--géneral--*/
      .hber1{
           margin-left: 5px;
@@ -887,16 +804,13 @@ height:235px;
           display: grid;
           grid-template-columns: 45% 45% ;
           grid-gap: 15px;
-       }
-
-       
+       }  
      /*--fin géneral--*/ 
      /*--activité marseille--*/
       .acteMars{
           margin-left: 30px;
           margin-right: 30px;
       }
-
      /*-- fin activité marseille--*/  
    .reservia {
        display: grid;
@@ -928,15 +842,6 @@ color: #0065FC;
  color: #0065FC;
     border-top: 1px solid #0065FC;   
 }
-  .hebergement{
-    
-     width: 100%;
-    
-  }
-  .Avtivité{
-    
-     width: 100%; 
-  }
    .sinscrire{
      display: grid;
      grid-template-columns: 1fr;
@@ -949,7 +854,6 @@ color: #0065FC;
    .barcherch{
      display: grid;
      grid-template-columns:4% 25% 10%;
-    
      }
      
    /*-- fin bare de recherche --*/  
@@ -960,21 +864,17 @@ color: #0065FC;
        margin-top: 10px;
     }
     .ecofamil{
-     
       display: grid;
       grid-template-columns: 55% 43%;
-      grid-gap: 4px;
-        
+      grid-gap: 4px; 
     }
    .famillial{
      margin-left: -5px;
    }
      .romantique{
-         
           width: 90%;
      }
-     .animaux{
-          
+     .animaux{   
           width: 74%;
      }
    /*--fin catégorie--*/
@@ -994,7 +894,7 @@ color: #0065FC;
      }
      .hber2{
           margin-left: 5px;
-          margin-right:5px ;
+          margin-right:5px;
           height: 700px;
           background-color:  #F2F2F2;
      }
@@ -1017,11 +917,9 @@ color: #0065FC;
        display: grid;
        grid-template-columns: 50%  18% 18% 13% 0.5%;
       } 
-
 }
 
 @media screen and (min-width :1200px){
-
 /* -- nav -- */
       .reservia {
        display: grid;
@@ -1029,44 +927,19 @@ color: #0065FC;
       } 
      .imageres{
       width: 10%;
-      
       }
-      .hebergement:hover{
-color: #0065FC;
-    border-top: 1px solid #0065FC ;
-
-}
-.Avtivité:hover{
-color: #0065FC;
-    border-top: 1px solid #0065FC;
-}
-.sinscrire:hover{
- color: #0065FC;
-    border-top: 1px solid #0065FC;   
-}
-  .hebergement{
-    
-     width: 100%;
-  }
-  .Avtivité{
-    
-     width: 100%; 
-  }
   .sinscrire{
      display: grid;
      grid-template-columns: 1fr;
      display: flex;
      justify-content: center;
      align-items: center;
-
-
 }
 /*--fin nav --*/
 /*-- bare de recherche --*/ 
    .barcherch{
      display: grid;
      grid-template-columns:3% 18% 8%;
-    
      }
      
    /*-- fin bare de recherche --*/ 
@@ -1077,21 +950,17 @@ color: #0065FC;
        margin-top: 10px;
     }
     .ecofamil{
-     
       display: grid;
       grid-template-columns: 55% 43%;
-      grid-gap: 4px;
-        
+      grid-gap: 4px; 
     }
    .famillial{
      margin-left: -5px;
    }
-     .romantique{
-        
+   .romantique{
           width: 77%;
      }
-     .animaux{
-          
+     .animaux{   
           width: 65%;
           margin-left: -27px;
      }
@@ -1129,12 +998,8 @@ color: #0065FC;
           grid-template-columns: 23% 23% 23% 23% ;
           grid-gap: 40px;
      }
-     /*--fin activité marseiile--*/
-     
+     /*--fin activité marseiile--*/  
 }
-
-
-
 @media screen and (min-width :1400px){
     .reservia {
        display: grid;
@@ -1153,19 +1018,15 @@ color: #0065FC;
        grid-template-columns: 5% 22% 14% 20%;
        margin-top: 10px;
     }
-
     .ecofamil{
-     
       display: grid;
       grid-template-columns: 55% 43%;
-      grid-gap: 4px;
-        
+      grid-gap: 4px;  
     }
    .famillial{
      margin-left: -5px;
    }
      .romantique{
-       
           width: 75%;
      }
      .animaux{
