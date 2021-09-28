@@ -419,11 +419,7 @@ border-radius: 10px;
 
 
 }
-.reno{
-     width: 100%;
-     height: 180px;
-     border-radius: 20px 20px 0px 0px;
-}
+
 .titrmars{
      margin-left: 20px;
 }
@@ -434,7 +430,13 @@ border-radius: 10px;
      grid-gap: 40px;
    
 }
-.paulher1{
+.paulherj{
+height:235px;
+  
+  border-radius:0px 0px 15px 15px ;
+  box-shadow: 0px 5px 4px #F2F2F2;
+}
+/*.paulher1{
   height:235px;
   
   border-radius:0px 0px 15px 15px ;
@@ -445,30 +447,18 @@ border-radius: 10px;
  
   border-radius: 0px 0px 15px 15px ;  
     box-shadow: 0px 5px 4px #F2F2F2;  
-}
+}*/
 
-.paul{
-     width: 100%;
-     height: 185px;
-     border-radius: 15px 15px 0px 0px;
-}
 
-.hikari{
-   width: 100%;
-     height: 180px;
-     border-radius: 15px 15px 0px 0px;   
-}
+
+
 .kevinhik{
 
 height: 235px;
 border-radius: 15px;
 box-shadow:  0px 5px 4px #F2F2F2;  
 }
-.sockalingum{
-   height:180px;
-   width: 100%;
-   border-radius: 15px 15px 0px 0px; 
-}
+
 
 .Calanque{
 display: grid;
@@ -477,28 +467,19 @@ grid-gap: 40px;
 
 
 }
-.Calanque1{
+.Calanquej{
 height:235px;
   
   border-radius:0px 0px 15px 15px ;
   box-shadow: 0px 5px 4px #F2F2F2;  
 }
-.Calanque2{
- height: 235px;
 
-  border-radius: 0px 0px 15px 15px ;  
-    box-shadow: 0px 5px 4px #F2F2F2;  
-}
-.florian{
+.florians{
  width: 100%;
      height: 180px;
      border-radius: 15px 15px 0px 0px;       
 }
-.paulin{
-   width: 100%;
-     height: 180px;
-     border-radius: 15px 15px 0px 0px;   
-}
+
 /*---fin activitémarseille---*/
 /*--footer--*/
 .reserviafooter{
