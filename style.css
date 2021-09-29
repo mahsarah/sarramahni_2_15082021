@@ -24,9 +24,7 @@ a{
 .reservia{
      display: grid;
      grid-template-columns: 1fr 1fr ;
-     margin-top: 20px;
-
-   
+     margin-top: 20px; 
 }
 
 
@@ -72,7 +70,6 @@ a{
  display: grid; 
 }
 .maps{
-
 background-color:  #F2F2F2;
 grid-template-columns: 20%;
 border-radius: 15px 0px 0px 15px;
@@ -83,12 +80,9 @@ display: grid;
 grid-template-columns: 100%;
 }
 .recherch{
-
 background-color: #0065FC;
 border-radius: 0px 15px 15px 0px;
 grid-template-columns: 70%;
-
-
 }
 .iconmaps{
     height: 20px;
@@ -122,55 +116,53 @@ grid-template-columns: 70%;
           grid-gap: 6px;
            margin-top: 10px;
       }
+      .changecaté{
+        display: grid;
+        border-radius:20px 20px 20px 20px;
+      }
       .economique{
-       display: grid;
+      /* display: grid;*/
         grid-template-columns: 28% 73%;
         grid-gap: 8px;
-         border-radius:20px 20px 20px 20px ;
+        /* border-radius:20px 20px 20px 20px ;*/
          margin-right: 13px;      
       }
       .mony1{
           height: 38px;
-          background-color: #DEEBFF;
-           display: grid;
+          /* display: grid;*/
           grid-template-columns: 53%;
-         border-radius:38px 38px 38px 38px ;
-         color: #0065FC;
+      }
+      .changeicon{
+       border-radius:38px 38px 38px 38px ;
+         color: #0065FC; 
+         background-color: #DEEBFF;
+          display: grid;
       }
      
       .famillial{
-        display: grid;
+       /* display: grid;*/
         grid-template-columns: 34% 69%;
-         border-radius: 20px 20px 20px 20px;
+         /*border-radius: 20px 20px 20px 20px;*/
          margin-left: 12px;
       }
-
       .child1{
-          display: grid;
           grid-template-columns: 38%;
-      background-color: #DEEBFF;
        height: 38px;
-       border-radius:38px 38px 38px 38px ;
-         color: #0065FC;
       }
-      
     .child2 {
      margin-left: 8px;
     }
     .romantique{
     width: 50%;
-     display: grid;
+    /* display: grid;*/
     grid-template-columns: 24% 65%;
-    border-radius: 20px 20px 20px 20px;
+    /*border-radius: 20px 20px 20px 20px;*/
     margin-top: 10px;
     }
     .cour1{
-     display: grid;
      grid-template-columns: 45%;
-      background-color: #DEEBFF;
       height: 37px;
-      border-radius:38px 38px 38px 38px ;
-     color: #0065FC;
+     
     margin-left: -1px;
     }
     .bordercat{
@@ -183,23 +175,18 @@ grid-template-columns: 70%;
        margin-left: 3px;
     }
     .animaux{
-     display: grid;
+     /*display: grid;*/
      grid-template-columns: 20% 79%;
       width: 60%;
      height: 37px;
-     border-radius:20px 20px 20px 20px ;
+    /* border-radius:20px 20px 20px 20px ;*/
       margin-top: 10px;
     }
     .chien1{
-     display: grid;
      grid-template-columns: 44%;
-      background-color: #DEEBFF;
      height: 37px;
-       border-radius:38px 38px 38px 38px ;
-         color: #0065FC;
+      
          margin-left: -6px;
-
-
     }
     .chien2{
      margin-left: 8px;
@@ -287,7 +274,6 @@ grid-gap: 1px;
  background-color: white;
  border-radius: 0px 15px 15px 0px;
 }
-
 .grandehot1{
      margin-top: -13px;   
 }
@@ -321,11 +307,9 @@ grid-gap: 1px;
 .hotel3{
 height: 150px;
  background-color:white;
- 
 }
 .zakaria{
- width: 100%;
-    
+ width: 100%;    
 }
 /*--hébergement a marseil--*/
 .rous{
@@ -336,7 +320,6 @@ height: 150px;
     grid-template-columns:100%;
     grid-gap: 20px;
     justify-content: center;
-
 }
 .photodeco{
 background-color: white;
@@ -344,7 +327,6 @@ height: 250px;
 border-radius: 15px 15px 15px 15px;
  border: 4px solid white;
  box-shadow: 0px 5px 4px #F2F2F2;
-
 }
 .dementionimage{
      width: 100%;
@@ -363,17 +345,14 @@ grid-gap:50px;
 justify-content: center;
 margin-top: 45px;
 }
-
 .renola{
 height:240px;
 box-shadow: 0px 5px 4px #F2F2F2;
 border-radius: 10px;
 }
-
 .titrmars{
      margin-left: 20px;
 }
-
 .paulher{
      display: grid;
      grid-template-columns: 100%;
@@ -386,7 +365,6 @@ height:235px;
   box-shadow: 0px 5px 4px #F2F2F2;
 }
 .kevinhik{
-
 height: 235px;
 border-radius: 15px;
 box-shadow:  0px 5px 4px #F2F2F2;
@@ -407,7 +385,6 @@ height:235px;
      height: 180px;
      border-radius: 15px 15px 0px 0px;       
 }
-
 /*---fin activitémarseille---*/
 /*--footer--*/
 .reserviafooter{
@@ -419,10 +396,8 @@ height:235px;
      margin-top: 29px;
 }
 .footg{
-     margin-left: 30px;
-   
+     margin-left: 30px;  
 }
-
 .footm{
   margin-left: 30px;   
 }
@@ -477,8 +452,7 @@ height:235px;
 /*--bare de recherche--*/
  .barcherch{
     display: grid;
-    grid-template-columns:10% 50% 20%;
-    
+    grid-template-columns:10% 50% 20%; 
 }
 .Recherche{
           display: flex;
@@ -495,13 +469,10 @@ height:235px;
           grid-template-columns: 34% 29%;
           grid-gap: 6px;
            margin-top: 10px;
-
-     
        } 
       .romantique{
           width: 34%;
       }
-
       .animaux{
           width: 38%;
       }
@@ -526,8 +497,6 @@ height:235px;
           display: grid;
           grid-template-columns: 45% 45%;
        }
-
-
      /*--fin géneral--*/
      /*--activité marseille--*/
      .acteMars{
@@ -543,7 +512,6 @@ height:235px;
 }
 .obsta1{
      margin-left: 30px;
-   
 }
 }
 @media screen and (min-width :600px){
@@ -551,7 +519,6 @@ height:235px;
        display: grid;
        grid-template-columns: 50%  18% 18% 13% 0.5%;
       } 
-      
       .imageres{
       width: 35%;
       }
@@ -568,13 +535,10 @@ height:235px;
           grid-template-columns: 29% 26%;
           grid-gap: 6px;
            margin-top: 10px;
-
-     
        } 
       .romantique{
           width:30%;
       }
-
       .animaux{
           width: 33%;
       }
@@ -621,29 +585,20 @@ height:235px;
          height: 200px;
        }
 }
-
 @media screen and (min-width :700px){
-     
-
       .reservia {
        display: grid;
        grid-template-columns:  58% 18% 14% 10% 0.5%;
-      } 
-
-       
+      }  
 .imageres{
       width: 20%;
       }
       /* --bare de recherche --*/
-
       .barcherch{
      display: grid;
      grid-template-columns:7% 36% 17%;
-    
      }
-    
       /* -- fin de bare de recherche --*/
-
       /*--catégorie--*/
       .catégorie{
        display: grid;
@@ -651,10 +606,8 @@ height:235px;
        margin-top: 10px;
     }
     .ecofamil{
-     
       display: grid;
       grid-template-columns: 55% 44%;
-        
     }
    .famillial{
      margin-left: -5px;
@@ -687,11 +640,7 @@ height:235px;
       } 
        }
        
-
-
 @media screen and (min-width :800px){
-
-
       .reservia {
        display: grid;
        grid-template-columns:60% 13% 13% 10% 0.5%;
@@ -705,9 +654,7 @@ height:235px;
      display: grid;
      grid-template-columns:6% 36% 15%;
     
-     }
-   
-     
+     } 
    /*-- fin bare de recherche --*/  
    /*--catégorie--*/
       .catégorie{
@@ -716,16 +663,13 @@ height:235px;
        margin-top: 10px;
     }
     .ecofamil{
-     
       display: grid;
-      grid-template-columns: 55% 44%;
-        
+      grid-template-columns: 55% 44%;    
     }
    .famillial{
      margin-left: -5px;
    }
      .animaux{
-          
           width: 85%;
      }
    /*--fin catégorie--*/
@@ -759,7 +703,6 @@ height:235px;
       } 
      .imageres{
       width: 20%;
-     
       }
    /*-- bare de recherche --*/ 
    .barcherch{
@@ -775,11 +718,9 @@ height:235px;
        margin-top: 10px;
     }
     .ecofamil{
-     
       display: grid;
       grid-template-columns: 55% 43%;
-      grid-gap: 4px;
-        
+      grid-gap: 4px;  
     }
    .famillial{
      margin-left: -5px;
@@ -793,7 +734,6 @@ height:235px;
           width: 74%;
      }
    /*--fin catégorie--*/
-    
      /*--géneral--*/
      .hber1{
           margin-left: 5px;
@@ -819,7 +759,6 @@ height:235px;
 }
 
 @media screen and (min-width :1024px){
-
     /*--nav--*/
       .reservia {
        display: grid;
@@ -827,12 +766,10 @@ height:235px;
       } 
      .imageres{
       width: 17%;
-     
       }
       .hebergement:hover{
-color: #0065FC;
+     color: #0065FC;
     border-top: 1px solid #0065FC ;
-
 }
 .Avtivité:hover{
 color: #0065FC;
@@ -855,7 +792,6 @@ color: #0065FC;
      display: grid;
      grid-template-columns:4% 25% 10%;
      }
-     
    /*-- fin bare de recherche --*/  
    /*--catégorie--*/
       .catégorie{
@@ -992,7 +928,6 @@ color: #0065FC;
 
      /*--fin géneral--*/
      /*--activité marseiile--*/
-
      .acteMars{
           display: grid;
           grid-template-columns: 23% 23% 23% 23% ;
@@ -1030,7 +965,6 @@ color: #0065FC;
           width: 75%;
      }
      .animaux{
-         
           width: 67%;
           margin-left: -40px;
      }
