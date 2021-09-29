@@ -121,15 +121,12 @@ grid-template-columns: 70%;
         border-radius:20px 20px 20px 20px;
       }
       .economique{
-      /* display: grid;*/
         grid-template-columns: 28% 73%;
         grid-gap: 8px;
-        /* border-radius:20px 20px 20px 20px ;*/
          margin-right: 13px;      
       }
       .mony1{
           height: 38px;
-          /* display: grid;*/
           grid-template-columns: 53%;
       }
       .changeicon{
@@ -140,9 +137,7 @@ grid-template-columns: 70%;
       }
      
       .famillial{
-       /* display: grid;*/
         grid-template-columns: 34% 69%;
-         /*border-radius: 20px 20px 20px 20px;*/
          margin-left: 12px;
       }
       .child1{
@@ -154,9 +149,7 @@ grid-template-columns: 70%;
     }
     .romantique{
     width: 50%;
-    /* display: grid;*/
     grid-template-columns: 24% 65%;
-    /*border-radius: 20px 20px 20px 20px;*/
     margin-top: 10px;
     }
     .cour1{
@@ -175,11 +168,9 @@ grid-template-columns: 70%;
        margin-left: 3px;
     }
     .animaux{
-     /*display: grid;*/
      grid-template-columns: 20% 79%;
       width: 60%;
      height: 37px;
-    /* border-radius:20px 20px 20px 20px ;*/
       margin-top: 10px;
     }
     .chien1{
@@ -445,6 +436,9 @@ height:235px;
 .nav-link {
     border-bottom: none;
      color: black; 
+}
+.colorinsact{
+    color:#0065FC ;
 }
 .imageres{
      width: 40%;
@@ -950,7 +944,7 @@ color: #0065FC;
   /*--catégorie--*/
       .catégorie{
        display: grid;
-       grid-template-columns: 5% 22% 14% 20%;
+       grid-template-columns: 5% 23% 14% 20%;
        margin-top: 10px;
     }
     .ecofamil{
