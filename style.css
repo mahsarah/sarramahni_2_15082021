@@ -121,7 +121,7 @@ grid-template-columns: 70%;
         border-radius:20px 20px 20px 20px;
       }
       .economique{
-        grid-template-columns: 28% 73%;
+        grid-template-columns: 27% 73%;
         grid-gap: 8px;
          margin-right: 13px;      
       }
@@ -135,9 +135,8 @@ grid-template-columns: 70%;
          background-color: #DEEBFF;
           display: grid;
       }
-     
       .famillial{
-        grid-template-columns: 34% 69%;
+        grid-template-columns: 30% 70%;
          margin-left: 12px;
       }
       .child1{
@@ -149,13 +148,12 @@ grid-template-columns: 70%;
     }
     .romantique{
     width: 50%;
-    grid-template-columns: 24% 65%;
+    grid-template-columns: 26% 65%;
     margin-top: 10px;
     }
     .cour1{
      grid-template-columns: 45%;
       height: 37px;
-     
     margin-left: -1px;
     }
     .bordercat{
@@ -168,7 +166,7 @@ grid-template-columns: 70%;
        margin-left: 3px;
     }
     .animaux{
-     grid-template-columns: 20% 79%;
+     grid-template-columns: 19% 79%;
       width: 60%;
      height: 37px;
       margin-top: 10px;
@@ -407,6 +405,11 @@ height:235px;
           grid-template-columns: 40% 35%;
           grid-gap: 6px;
            margin-top: 10px;
+      }
+      .economique{
+        grid-template-columns: 27% 73%;
+        grid-gap: 8px;
+         margin-right: 13px;      
       }
       .romantique{
           width: 40%;
@@ -879,11 +882,7 @@ color: #0065FC;
        grid-template-columns: 5% 28% 16% 28%;
        margin-top: 10px;
     }
-    .ecofamil{
-      display: grid;
-      grid-template-columns: 55% 43%;
-      grid-gap: 4px; 
-    }
+   
    .famillial{
      margin-left: -5px;
    }
@@ -935,7 +934,6 @@ color: #0065FC;
        grid-template-columns:74% 8% 8% 6% 0.5%;
       } 
       .sinscrire{
-        
         margin-right: 10px;
       }
      .Avtivité{
@@ -944,24 +942,9 @@ color: #0065FC;
   /*--catégorie--*/
       .catégorie{
        display: grid;
-       grid-template-columns: 5% 23% 14% 20%;
+       grid-template-columns: 5% 23% 13% 20%;
        margin-top: 10px;
     }
-    .ecofamil{
-      display: grid;
-      grid-template-columns: 55% 43%;
-      grid-gap: 4px;  
-    }
-   .famillial{
-     margin-left: -5px;
-   }
-     .romantique{
-          width: 75%;
-     }
-     .animaux{
-          width: 67%;
-          margin-left: -40px;
-     }
    /*--fin catégorie--*/
    /*--info--*/
       .info{
