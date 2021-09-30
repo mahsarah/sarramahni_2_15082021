@@ -110,6 +110,7 @@ grid-template-columns: 70%;
       .filtre{
           margin-top: 20px;
       }
+
       .ecofamil{
           display: grid;
           grid-template-columns: 54% 44%;
@@ -120,6 +121,7 @@ grid-template-columns: 70%;
         display: grid;
         border-radius:20px 20px 20px 20px;
       }
+
       .economique{
         grid-template-columns: 27% 73%;
         grid-gap: 8px;
@@ -246,13 +248,13 @@ align-items: center;
 }
 .classeur2{
 display: grid;
-grid-template-columns: 90%;
+grid-template-columns:90%;
 grid-gap: 35px;
 }
 .pop1{
 display: grid;
-grid-template-columns: 50% 50%;
-grid-gap: 1px;
+grid-template-columns:50% 50%;
+
 }
 .hotel1{
  height: 150px;
@@ -270,12 +272,11 @@ grid-gap: 1px;
      margin-top: -15px;
 }
 .grandehot4{
-     margin-top: 48px;
+     margin-top: 15px;
 }
 .pop2{
 display: grid;
 grid-template-columns: 50% 50%;
-grid-gap: 1px;
 }
 .hotel2{
 height: 150px;
@@ -291,14 +292,20 @@ border: 4px solid white;
 .pop3{
 display: grid;
 grid-template-columns: 50% 50%;
-grid-gap: 1px;
+
 }
 .hotel3{
 height: 150px;
  background-color:white;
 }
-.zakaria{
+.zakaria {
  width: 100%;    
+}
+.awcrea{
+ width: 100%;    
+}
+.klebs{
+    width: 100%;
 }
 /*--hébergement a marseil--*/
 .rous{
@@ -428,13 +435,18 @@ height:235px;
       .rous{
      margin-left:22px;
       }
-
+       .grandehot4{
+        margin-top: 60px;
+       }
      }
 
 @media screen and (min-width :500px){
     
  .reservia{
      grid-template-columns: 42% 24% 24% 13% 0.5%;   
+}
+.position {
+    order: 3;
 }
 .nav-link {
     border-bottom: none;
@@ -788,7 +800,13 @@ color: #0065FC;
    .barcherch{
      display: grid;
      grid-template-columns:4% 25% 10%;
+
      }
+     .recherch:hover ,.Recherche:hover {
+        background-color:#DEEBFF;
+         color: #0065FC;
+     }
+    
    /*-- fin bare de recherche --*/  
    /*--catégorie--*/
       .catégorie{
@@ -804,6 +822,14 @@ color: #0065FC;
    .famillial{
      margin-left: -5px;
    }
+     .mony2:hover ,.child2:hover , .cour2:hover , .chien2:hover {
+       color: #0065FC ;
+     }
+     .child1:hover , .cour1:hover , .chien1:hover , .mony1:hover{
+        background-color: #0065FC;
+        color: #DEEBFF;
+
+     }
      .romantique{
           width: 90%;
      }
