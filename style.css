@@ -4,13 +4,10 @@
          url('fonts/raleway-italic-variablefont_wght-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 body{
      margin-left: 20px;
    margin-right: 20px;
-
 }
 
 a{
@@ -20,29 +17,23 @@ a{
 .obsta1{
      margin-left: 20px;
 }
-
 .reservia{
      display: grid;
      grid-template-columns: 1fr 1fr ;
      margin-top: 20px; 
 }
-
-
 .imageres{
      margin-left: 8px;
      width:50%;
      height: 40px;  
 }
-
 .nav-link {
      display: flex; 
      align-items: center; 
      height: 40px;
 }
-.sinscrire{
-    
-     justify-content: flex-end;
-        
+.sinscrire{  
+     justify-content: flex-end;     
 }
   .hebergement{
     justify-content: center;
@@ -52,16 +43,13 @@ a{
     justify-content: center;
      border-bottom: 3px solid #F2F2F2;
     }
-
-
    .colorblu {
      color: #0065FC;
     }
     /*--bare de recherche--*/
      .barcherch{
     display: grid;
-    grid-template-columns:10% 60% 10%;
-    
+    grid-template-columns:10% 60% 10%; 
 }
 .justifiy{
   height: 40px; 
@@ -95,7 +83,6 @@ grid-template-columns: 70%;
      }
 
      /*--fin bar de recherche --*/
-
      /*--catégorie1 --*/
      .catégorielink{
        justify-content: center;
@@ -110,7 +97,6 @@ grid-template-columns: 70%;
       .filtre{
           margin-top: 20px;
       }
-
       .ecofamil{
           display: grid;
           grid-template-columns: 54% 44%;
@@ -121,7 +107,6 @@ grid-template-columns: 70%;
         display: grid;
         border-radius:20px 20px 20px 20px;
       }
-
       .economique{
         grid-template-columns: 27% 73%;
         grid-gap: 8px;
@@ -188,7 +173,6 @@ grid-template-columns: 70%;
    
      /*--fin catégorie1--*/
      /*--info--*/
-
 .info{
 display: grid;
 grid-template-columns: 12% 85%;
@@ -209,10 +193,8 @@ border: 3px solid #F2F2F2;
 display: grid; 
 grid-template-columns: 100%;
 align-items: center;
-
 }
 /*--fin info-- */
-
 /*--général--*/
 .géneral{
      display: grid;
@@ -223,7 +205,6 @@ align-items: center;
      height:660px;
      background-color:#F2F2F2  ;
      border-radius: 15px 15px 15px 15px;
-
 }
 .hber2{
   height:1810px;
@@ -254,7 +235,6 @@ grid-gap: 35px;
 .pop1{
 display: grid;
 grid-template-columns:50% 50%;
-
 }
 .hotel1{
  height: 150px;
@@ -298,14 +278,8 @@ grid-template-columns: 50% 50%;
 height: 150px;
  background-color:white;
 }
-.zakaria {
+.zakaria , .awcrea , .klebs {
  width: 100%;    
-}
-.awcrea{
- width: 100%;    
-}
-.klebs{
-    width: 100%;
 }
 /*--hébergement a marseil--*/
 .rous{
@@ -353,7 +327,6 @@ border-radius: 10px;
      display: grid;
      grid-template-columns: 100%;
      grid-gap: 40px;
-   
 }
 .paulherj{
 height:235px;
@@ -375,7 +348,6 @@ height:235px;
   border-radius:0px 0px 15px 15px ;
   box-shadow: 0px 5px 4px #F2F2F2;  
 }
-
 .florians{
  width: 100%;
      height: 180px;
@@ -386,25 +358,20 @@ height:235px;
 .reserviafooter{
      display: grid;
      grid-template-columns: 100%;
-     grid-gap: 20px;
      background-color: #F2F2F2;
      height: 600px;
      margin-top: 29px;
 }
-.footg{
+.footg ,.footm ,.footd {
      margin-left: 30px;  
 }
-.footm{
-  margin-left: 30px;   
-}
-.footd{
-  margin-left: 30px;   
+.footm , .footd {
+    margin-top:-60px;
 }
 .footer1{
      margin-top: -20px;
 }
 /*fin footer--*/
-
      @media screen and (min-width :400px){
           /*--catégori--*/
        .ecofamil{
@@ -421,7 +388,6 @@ height:235px;
       .romantique{
           width: 40%;
       }
-
       .animaux{
           width: 50%;
       }
@@ -440,8 +406,7 @@ height:235px;
        }
      }
 
-@media screen and (min-width :500px){
-    
+@media screen and (min-width :500px){  
  .reservia{
      grid-template-columns: 42% 24% 24% 13% 0.5%;   
 }
@@ -492,7 +457,6 @@ height:235px;
     grid-template-columns: 7% 85%;
      }
      /*--fin info--*/
-
      /*--géneral--*/
        .hber1{
           margin-left: 40px;
@@ -535,7 +499,6 @@ height:235px;
       .barcherch{
      display: grid;
      grid-template-columns:9% 42% 18%;
-    
      }
       /*-- fin bare de recherche --*/
       /*--catégorie--*/
@@ -593,6 +556,9 @@ height:235px;
          grid-gap:25px;
          height: 200px;
        }
+       .footm , .footd {
+    margin-top:4px;
+}
 }
 @media screen and (min-width :700px){
       .reservia {
@@ -697,7 +663,6 @@ height:235px;
           margin-left: 43px;
           margin-right: 43px;
        }
-       
      /*--fin géneral--*/
    .reservia {
        display: grid;
@@ -717,7 +682,6 @@ height:235px;
    .barcherch{
      display: grid;
      grid-template-columns:6% 30% 14%;
-    
      }
    /*-- fin bare de recherche --*/ 
    /*--catégorie--*/
@@ -734,12 +698,10 @@ height:235px;
    .famillial{
      margin-left: -5px;
    }
-     .romantique{
-          
-          width: 90%;
+.romantique{
+  width: 90%;
      }
      .animaux{
-         
           width: 74%;
      }
    /*--fin catégorie--*/
@@ -766,7 +728,6 @@ height:235px;
        grid-template-columns: 50%  19% 18% 13% 0.5%;
       } 
 }
-
 @media screen and (min-width :1024px){
     /*--nav--*/
       .reservia {
@@ -828,7 +789,6 @@ color: #0065FC;
      .child1:hover , .cour1:hover , .chien1:hover , .mony1:hover{
         background-color: #0065FC;
         color: #DEEBFF;
-
      }
      .romantique{
           width: 90%;
@@ -993,5 +953,4 @@ color: #0065FC;
    img:hover{
      transform: scale(1.1);
    }
-   
 }
