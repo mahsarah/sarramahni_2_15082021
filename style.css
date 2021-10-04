@@ -301,6 +301,10 @@ border-radius: 15px 15px 15px 15px;
      margin-left: 10px;
 }
 /*---activitémarseille---*/
+.maractivité{
+    display: grid;
+    grid-template-columns: 100%;
+}
 .acteMars{
 display: grid;
 grid-template-columns: 100%;
@@ -720,6 +724,7 @@ color: #0065FC;
  color: #0065FC;
     border-top: 1px solid #0065FC;   
 }
+
    .sinscrire{
      display: grid;
      grid-template-columns: 1fr;
@@ -727,6 +732,10 @@ color: #0065FC;
      justify-content: center;
      align-items: center;
 }
+ .maps:hover{
+    background-color: #0065FC;
+        color: #DEEBFF;
+ }
 /*-- bare de recherche --*/ 
    .barcherch{
      display: grid;
@@ -909,5 +918,9 @@ color: #0065FC;
      /*--fin géneral--*/
    img:hover{
      transform: scale(1.1);
+   }
+   .obsta1{
+    margin-bottom: -40px;
+    margin-top: 40px;
    }
 }
