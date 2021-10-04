@@ -58,7 +58,7 @@ a{
  display: grid; 
 }
 .maps{
-background-color:  #F2F2F2;
+background-color: #F2F2F2;
 grid-template-columns: 20%;
 border-radius: 15px 0px 0px 15px;
 }
@@ -81,8 +81,6 @@ grid-template-columns: 70%;
      .search{
           color: white;
      }
-
-     /*--fin bar de recherche --*/
      /*--catégorie1 --*/
      .catégorielink{
        justify-content: center;
@@ -161,18 +159,15 @@ grid-template-columns: 70%;
     .chien1{
      grid-template-columns: 44%;
      height: 37px;
-      
-         margin-left: -6px;
+      margin-left: -6px;
     }
-    .chien2{
-     margin-left: 8px;
+.chien2{
+  margin-left: 8px;
           }
-          .coloricon{
-               color: black;
-          }
-   
-     /*--fin catégorie1--*/
-     /*--info--*/
+ .coloricon{
+   color: black;
+ }
+ /*--info--*/
 .info{
 display: grid;
 grid-template-columns: 12% 85%;
@@ -194,7 +189,6 @@ display: grid;
 grid-template-columns: 100%;
 align-items: center;
 }
-/*--fin info-- */
 /*--général--*/
 .géneral{
      display: grid;
@@ -252,7 +246,7 @@ grid-template-columns:50% 50%;
      margin-top: -15px;
 }
 .grandehot4{
-     margin-top: 15px;
+     margin-top: 14px;
 }
 .pop2{
 display: grid;
@@ -306,7 +300,6 @@ border-radius: 15px 15px 15px 15px;
 .afiche{
      margin-left: 10px;
 }
-/*--fin général--*/
 /*---activitémarseille---*/
 .acteMars{
 display: grid;
@@ -353,7 +346,6 @@ height:235px;
      height: 180px;
      border-radius: 15px 15px 0px 0px;       
 }
-/*---fin activitémarseille---*/
 /*--footer--*/
 .reserviafooter{
      display: grid;
@@ -391,7 +383,6 @@ height:235px;
       .animaux{
           width: 50%;
       }
-      /*--fin catégori--*/
       /*--info--*/
       .info{
     display: grid;
@@ -436,7 +427,6 @@ height:235px;
           color: white;
            display:none;
      }
-/*--fin de bare de recherche --*/
 /*--catégorie--*/
 .ecofamil{
         display: grid;
@@ -456,7 +446,6 @@ height:235px;
     display: grid;
     grid-template-columns: 7% 85%;
      }
-     /*--fin info--*/
      /*--géneral--*/
        .hber1{
           margin-left: 40px;
@@ -470,7 +459,6 @@ height:235px;
           display: grid;
           grid-template-columns: 45% 45%;
        }
-     /*--fin géneral--*/
      /*--activité marseille--*/
      .acteMars{
           display: grid;
@@ -500,7 +488,6 @@ height:235px;
      display: grid;
      grid-template-columns:9% 42% 18%;
      }
-      /*-- fin bare de recherche --*/
       /*--catégorie--*/
        .ecofamil{
         display: grid;
@@ -514,21 +501,16 @@ height:235px;
       .animaux{
           width: 33%;
       }
-
-      /*--fin catégorie--*/
-
        /*--info--*/
       .info{
     display: grid;
     grid-template-columns: 6% 85%;
      }
-     /*--fin info--*/
      /*--géneral--*/
      .hber1{
           margin-left: 50px;
           margin-right: 50px;
        }
-     /*--fin géneral--*/
      /*--activité marseille--*/
      .acteMars{
           display: grid;
@@ -573,7 +555,6 @@ height:235px;
      display: grid;
      grid-template-columns:7% 36% 17%;
      }
-      /* -- fin de bare de recherche --*/
       /*--catégorie--*/
       .catégorie{
        display: grid;
@@ -595,20 +576,17 @@ height:235px;
           
           width: 90%;
      }
-   /*--fin catégorie--*/
    /*--info--*/
       .info{
     display: grid;
     grid-template-columns: 5% 85%;
      }
-     /*--fin info--*/
      /*--géneral--*/
      .hber1{
           margin-left: 55px;
           margin-right: 55px;
        }
      /*--fin géneral--*/
-      
       .reservia {
        display: grid;
        grid-template-columns: 50%  18% 18% 13% 0.5%;
@@ -630,7 +608,6 @@ height:235px;
      grid-template-columns:6% 36% 15%;
     
      } 
-   /*-- fin bare de recherche --*/  
    /*--catégorie--*/
       .catégorie{
        display: grid;
@@ -647,13 +624,11 @@ height:235px;
      .animaux{
           width: 85%;
      }
-   /*--fin catégorie--*/
     /*--info--*/
       .info{
     display: grid;
     grid-template-columns: 4% 85%;
      }
-     /*--fin info--*/
      /*--géneral--*/
      .hber1{
           margin-left: 120px;
@@ -669,7 +644,6 @@ height:235px;
        grid-template-columns: 50%  19% 18% 13% 0.5%;
       } 
 }
-
 @media screen and (min-width :900px){
       .reservia {
        display: grid;
@@ -683,7 +657,6 @@ height:235px;
      display: grid;
      grid-template-columns:6% 30% 14%;
      }
-   /*-- fin bare de recherche --*/ 
    /*--catégorie--*/
       .catégorie{
        display: grid;
@@ -704,7 +677,6 @@ height:235px;
      .animaux{
           width: 74%;
      }
-   /*--fin catégorie--*/
      /*--géneral--*/
      .hber1{
           margin-left: 5px;
@@ -716,7 +688,6 @@ height:235px;
           grid-template-columns: 45% 45% ;
           grid-gap: 15px;
        }  
-     /*--fin géneral--*/ 
      /*--activité marseille--*/
       .acteMars{
           margin-left: 30px;
@@ -756,7 +727,6 @@ color: #0065FC;
      justify-content: center;
      align-items: center;
 }
-/*--fin nav --*/
 /*-- bare de recherche --*/ 
    .barcherch{
      display: grid;
@@ -766,9 +736,7 @@ color: #0065FC;
      .recherch:hover ,.Recherche:hover {
         background-color:#DEEBFF;
          color: #0065FC;
-     }
-    
-   /*-- fin bare de recherche --*/  
+     } 
    /*--catégorie--*/
       .catégorie{
        display: grid;
@@ -796,13 +764,11 @@ color: #0065FC;
      .animaux{   
           width: 74%;
      }
-   /*--fin catégorie--*/
     /*--info--*/
       .info{
     display: grid;
     grid-template-columns: 3.5% 85%;
      }
-     /*--fin info--*/
      /*--géneral--*/
      .classeur1{
          display: grid;
@@ -822,7 +788,6 @@ color: #0065FC;
           grid-template-columns: 31% 31% 31%; 
           grid-gap: 10px;
      }
-     /*--fin géneral --*/
      /*--activité marseille--*/
      .acteMars{
           display: grid;
@@ -854,14 +819,11 @@ color: #0065FC;
      justify-content: center;
      align-items: center;
 }
-/*--fin nav --*/
 /*-- bare de recherche --*/ 
    .barcherch{
      display: grid;
      grid-template-columns:3% 18% 8%;
      }
-     
-   /*-- fin bare de recherche --*/ 
    /*--catégorie--*/
       .catégorie{
        display: grid;
@@ -879,7 +841,6 @@ color: #0065FC;
           width: 65%;
           margin-left: -27px;
      }
-   /*--fin catégorie--*/
    /*--info--*/
       .info{
     display: grid;
@@ -904,15 +865,12 @@ color: #0065FC;
           grid-template-columns: 95%;
         grid-gap: 40px;
        }
-
-     /*--fin géneral--*/
      /*--activité marseiile--*/
      .acteMars{
           display: grid;
           grid-template-columns: 23% 23% 23% 23% ;
           grid-gap: 40px;
-     }
-     /*--fin activité marseiile--*/  
+     }  
 }
 @media screen and (min-width :1400px){
     .reservia {
@@ -920,7 +878,7 @@ color: #0065FC;
        grid-template-columns:74% 8% 8% 6% 0.5%;
       } 
       .sinscrire{
-        margin-right: 10px;
+        margin-left: 10px;
       }
      .Avtivité{
         margin-left: 16px;
@@ -937,7 +895,6 @@ color: #0065FC;
     display: grid;
     grid-template-columns: 2.5% 85%;
      }
-     /*--fin info--*/
      /*--géneral--*/
      .géneral{
           display: grid;
